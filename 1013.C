@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 int main() {
+    // declaração das variáveis
     int a, b, c;
 
     scanf("%d %d %d", &a, &b, &c);
