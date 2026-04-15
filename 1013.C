@@ -13,7 +13,7 @@ Aprendizado : Declaração de variáveis e uso do if e else.
 
 int main() {
     
-    // declaração das variáveis
+    // Declaração das variáveis
     int a, b, c;
 
     // Processamento das entradas
