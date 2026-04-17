@@ -13,6 +13,5 @@ Aprendizado : .
 
 int main() {
 
-
   return 0;
 }
