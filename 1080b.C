@@ -11,7 +11,7 @@ Aprendizado : .
 
 #include <stdio.h>
 
-int V[100]
+int V[100] {
 
   return 0;
 }
