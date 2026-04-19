@@ -13,7 +13,6 @@ Aprendizado : Como utilizar vetores e suas aplicações.
 
 int main() {
 
-    // Declaração das variáveis
     int v[100], maior, entrada, i;
     
     for(i = 0; i < 100; i++) {
