@@ -13,37 +13,37 @@ Aprendizado : Usar for junto com if, variável temporária e novos operadores.
 
 int main() {
 
-  // Declaração das variáveis 
-  int A, B, soma = 0;
+	// DeclaraC'C#o das variC!veis
+	int A, B, soma = 0;
 
-  // Processamento das entradas
-  scanf("%d", &A);
-  scanf("%d", &B);
+	// Processamento das entradas
+	scanf("%d", &A);
+	scanf("%d", &B);
 
-  // Caso 1: A = B
-  if(A == B) {
-    printf("%d\n", soma);
-  }
+	// Caso 1: A = B
+	if(A == B) {
+		printf("%d\n", soma);
+	}
 
-  // Caso 2: A < B
-  else if(A < B) {
-    for(int i = A + 1; i < B; ++i) {
-      if(i % 2 != 0) {
-        soma = soma + i;
-      } 
-    }
-    printf("%d\n", soma);
-  }
+	// Caso 2: A < B
+	else if(A < B) {
+		for(int i = A + 1; i < B; ++i) {
+			if(i % 2 != 0) {
+				soma = soma + i;
+			}
+		}
+		printf("%d\n", soma);
+	}
 
-  // Caso 3: A > B
-  else {
-    for(int i = B + 1; i < A; ++i) {
-      if(i % 2 != 0) {
-        soma = soma + i;
-      }
-    }
-    printf("%d\n", soma);
-  }
-    
-  return 0;
+	// Caso 3: A > B
+	else {
+		for(int i = B + 1; i < A; ++i) {
+			if(i % 2 != 0) {
+				soma = soma + i;
+			}
+		}
+		printf("%d\n", soma);
+	}
+
+	return 0;
 }
