@@ -13,13 +13,13 @@ Aprendizado : Como utilizar vetores e suas aplicações.
 
 int main() {
 
-int v[100], maior, entrada, i;
+    int v[100], maior, entrada, i;
     
-for(i = 0; i < 100; i++) {
+    for(i = 0; i < 100; i++) {
         
-scanf("%d", &v[i]);
+        scanf("%d", &v[i]);
         
-if(i == 0) {
+        if(i == 0) {
 maior = v[0];
 entrada = 1;
 }
