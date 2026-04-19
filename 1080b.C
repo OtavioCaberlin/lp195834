@@ -11,7 +11,26 @@ Aprendizado : .
 
 #include <stdio.h>
 
-int V[100] {
+int main() {
 
-  return 0;
+    int v[100], maior, entrada, i;
+    
+    for(i = 0; i < 100; i++) {
+        
+        scanf("%d", &v[i]);
+        
+        if(i == 0) {
+            maior = v[0];
+            entrada = 1;
+        }
+        else if(v[i] > maior) {
+            maior = v[i];
+            entrada = i + 1;
+        }
+    }
+    
+    printf("%d\n", maior);
+    printf("%d\n", entrada);
+    
+    return 0;
 }
