@@ -13,7 +13,7 @@ Aprendizado : Estrutura inicial de C e como imprimir algo.
 
 int main() {
 
-	// Processamento da saC-da
+	// Processamento da saída
 	printf("Hello World!\n");
 
 	return 0;
