@@ -14,4 +14,10 @@ Aprendizado : Modelos diferentes para apresentar a saída.
 int main() {
 
   // Declaração das variáveis
-  int a
+  int a;
+
+  scanf("%d", &a);
+  printf("%d", a);
+
+  return 0;
+}
