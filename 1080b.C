@@ -20,17 +20,17 @@ int main() {
         scanf("%d", &v[i]);
         
         if(i == 0) {
-maior = v[0];
-entrada = 1;
-}
-else if(v[i] > maior) {
-maior = v[i];
-entrada = i + 1;
-}
-}
+            maior = v[0];
+            entrada = 1;
+        }
+        else if(v[i] > maior) {
+            maior = v[i];
+            entrada = i + 1;
+        }
+    }
     
-printf("%d\n", maior);
-printf("%d\n", entrada);
+    printf("%d\n", maior);
+    printf("%d\n", entrada);
     
-return 0;
+    return 0;
 }
