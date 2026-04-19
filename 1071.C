@@ -13,7 +13,7 @@ Aprendizado : Usar for junto com if, variável temporária e novos operadores.
 
 int main() {
 
-	// DeclaraC'C#o das variC!veis
+	// Declaração das variáveis
 	int A, B, soma = 0;
 
 	// Processamento das entradas
