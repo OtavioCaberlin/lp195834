@@ -1,9 +1,8 @@
 /* --------------------------------------------------------------------------
-Nome        : Otávio Fernandes Caberlin - 195834
 Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Otávio Fernandes Caberlin - 195834
 Linguagem   : C
-Plataforma  : https://judge.beecrowd.com/pt/problems/view/2757
-Exercício   : 2757
+Problema    : https://judge.beecrowd.com/pt/problems/view/2757
 Data        : 09/04/2026
 Objetivo    : Entrada e saída de números inteiros.
 Aprendizado : Modelos diferentes para apresentar a saída.
