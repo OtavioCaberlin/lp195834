@@ -1,9 +1,8 @@
 /* --------------------------------------------------------------------------
-Nome        : Otávio Fernandes Caberlin - 195834
 Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Otávio Fernandes Caberlin - 195834
 Linguagem   : C
-Plataforma  : https://judge.beecrowd.com/pt/problems/view/2758
-Exercício   : 2758
+Problema    : https://judge.beecrowd.com/pt/problems/view/2758
 Data        : 09/04/2026
 Objetivo    : Entrada e saída de números reais.
 Aprendizado : Novos tipos de variáveis e formatação e limitação da saída.
