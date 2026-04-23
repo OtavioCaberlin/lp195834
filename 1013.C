@@ -1,9 +1,8 @@
 /* --------------------------------------------------------------------------
-Nome        : Otávio Fernandes Caberlin - 195834
 Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Otávio Fernandes Caberlin - 195834
 Linguagem   : C
-Plataforma  : https://judge.beecrowd.com/pt/problems/view/1013
-Exercício   : 1013
+Problema    : https://judge.beecrowd.com/pt/problems/view/1013
 Data        : 07/04/2026
 Objetivo    : Apresentar o maior entre 3 números.
 Aprendizado : Declaração de variáveis e uso do if e else.
