@@ -1,9 +1,8 @@
 /* --------------------------------------------------------------------------
-Nome        : Otávio Fernandes Caberlin - 195834
 Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Otávio Fernandes Caberlin - 195834
 Linguagem   : C
-Plataforma  : https://judge.beecrowd.com/pt/problems/view/1071
-Exercício   : 1071
+Problema    : https://judge.beecrowd.com/pt/problems/view/1071
 Data        : 14/04/2026
 Objetivo    : Soma de ímpares entre 2 valores.
 Aprendizado : Usar for junto com if, variável temporária e novos operadores.
