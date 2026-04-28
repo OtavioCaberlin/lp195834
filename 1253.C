@@ -13,14 +13,14 @@ Aprendizado : Manipulação de caracteres deslocados no alfabeto.
 int main() {
     
     // Declaração das variáveis
-    int N, i, j, deslocamento;
+    int n, i, j, deslocamento;
     char string[51];
 
     // Número de casos
-    scanf("%d", &N); 
+    scanf("%d", &n); 
 
     // Repetição de casos
-    for (i = 0; i < N; i++) {
+    for (i = 0; i < n; i++) {
         
         // Processamento das entradas 
         scanf("%s", string); 
