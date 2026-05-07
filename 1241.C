@@ -1,4 +1,12 @@
-
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Otávio Fernandes Caberlin - 195834
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1241
+Data        : 05/05/2026
+Objetivo    : Verificar se o final das strings coincidem.
+Aprendizado : Comparação de partes de strings e uso do strlen.
+-------------------------------------------------------------------------- */
 
 #include <stdio.h>
 #include <string.h>
