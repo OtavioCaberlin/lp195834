@@ -17,7 +17,7 @@ int main() {
     int N, tamanho, metade;
     char texto[1001], invertido[1001];
 
-    // Processamento de entrada
+    // Processamento das entradas
     scanf("%d", &N);
     getchar(); 
 
@@ -58,6 +58,7 @@ int main() {
             invertido[j] = invertido[j] - 1;
         }
 
+        // Processamento da saída
         printf("%s\n", invertido);
     }
 
