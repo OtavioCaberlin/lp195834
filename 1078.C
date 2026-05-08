@@ -15,7 +15,7 @@ int main() {
     // Declaração das variáveis
     int n, multipli = 0;
     
-    // Processamento de entrada
+    // Processamento da entrada
     scanf("%d", &n);
     
     // Definindo intervalo de entrada
@@ -25,7 +25,8 @@ int main() {
         for(int i = 1; i <= 10; ++i) {
             
             multipli = i * n;
-            
+
+            // Processamento da saída
             printf("%d x %d = %d\n", i, n, multipli);
         }
     }
