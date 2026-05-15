@@ -4,8 +4,8 @@ Nome        : Otávio Fernandes Caberlin - 195834
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1024
 Data        : 07/05/2026
-Objetivo    : .
-Aprendizado : .
+Objetivo    : Criptografar texto com deslocamento e inversão de caracteres.
+Aprendizado : Uso de fgets, strlen, strings, ASCII e manipulação de caracteres.
 -------------------------------------------------------------------------- */
 
 #include <stdio.h>
