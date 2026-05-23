@@ -5,7 +5,7 @@ Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1168
 Data        : 19/05/2026
 Objetivo    : Calcular quantos leds são necessário em um algarismo.
-Aprendizado : Relacionar itens em dois vetores e conversão tabela ASCII.
+Aprendizado : Uso do switch para vários casos.
 -------------------------------------------------------------------------- */
 
 #include <stdio.h>
@@ -14,7 +14,6 @@ int main() {
     
     // Declaração das variáveis
     int casos, soma;
-    int leds[10] = {6, 2, 5, 5, 4, 5, 6, 3, 7, 6};
     char numero[102];
     
     // Processamento número de casos
@@ -30,8 +29,49 @@ int main() {
         // Loop na string que corresponde ao número
         for(int i = 0; numero[i] != '\0'; i++) {
             
-            // Soma dos leds para cada caractere + transformação em número pela ASCII 
-            soma = soma + leds[numero[i] - '0'];
+            // Verificação de cada caractere pelo switch
+            switch(numero[i]) {
+                
+                case '0':
+                    soma = soma + 6;
+                    break;
+                    
+                case '1':
+                    soma = soma + 2;
+                    break;
+                    
+                case '2':
+                    soma = soma + 5;
+                    break;
+                    
+                case '3':
+                    soma = soma + 5;
+                    break;
+                    
+                case '4':
+                    soma = soma + 4;
+                    break;
+                    
+                case '5':
+                    soma = soma + 5;
+                    break;
+                    
+                case '6':
+                    soma = soma + 6;
+                    break;
+                    
+                case '7':
+                    soma = soma + 3;
+                    break;
+                    
+                case '8':
+                    soma = soma + 7;
+                    break;
+                    
+                case '9':
+                    soma = soma + 6;
+                    break;
+            }
         }
         
         // Processamento da saída
