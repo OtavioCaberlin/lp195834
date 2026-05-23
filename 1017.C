@@ -15,7 +15,6 @@ float calcularLitros (int tempo, int velocidade) {
     
     // Fórmula da conta
     return(float) (tempo * velocidade) / 12;    
-
 }
 
 int main () {
