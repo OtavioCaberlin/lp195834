@@ -16,24 +16,24 @@ int main() {
     int n;
     
     // Loop até chegar no EOF
-    while (scanf("%d", &n) != EOF) {
+    while(scanf("%d", &n) != EOF) {
 
         // Criação da matriz
         int matriz[70][70];
 
         // Número de linhas
-        for (int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++) {
 
             // Número de colunas
-            for (int j = 0; j < n; j++) {
+            for(int j = 0; j < n; j++) {
 
                 // Diagonal principal
-                if (i == j) {
+                if(i == j) {
                     matriz[i][j] = 1;
                 }
 
                 // Diagonal inversa
-                else if (i + j == n - 1) {
+                else if(i + j == n - 1) {
                     matriz[i][j] = 2;
                 }
 
@@ -45,10 +45,10 @@ int main() {
         }
 
         // Impressão das linhas
-        for (int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++) {
 
             // Impressão das colunas
-            for (int j = 0; j < n; j++) {
+            for(int j = 0; j < n; j++) {
                 printf("%d", matriz[i][j]);
             }
 
