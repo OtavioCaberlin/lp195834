@@ -4,8 +4,8 @@ Nome        : Otávio Fernandes Caberlin - 195834
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1258
 Data        : 21/05/2026
-Objetivo    : .
-Aprendizado : .
+Objetivo    : Escrever uma lista de pedidos de camisetas.
+Aprendizado : Uso de struct, sua nomeação e sintaxe, ordenação na saída.
 -------------------------------------------------------------------------- */
 
 #include <stdio.h>
