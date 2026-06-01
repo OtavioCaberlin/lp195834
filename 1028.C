@@ -4,8 +4,8 @@ Nome        : Otávio Fernandes Caberlin - 195834
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1028
 Data        : 26/05/2026
-Objetivo    : .
-Aprendizado : .
+Objetivo    : Encontrar o maior tamanho de pilha que dois jogadores conseguem formar.
+Aprendizado : Uso de recursão e do algoritmo de Euclides para calcular o MDC.
 -------------------------------------------------------------------------- */
 
 #include <stdio.h>
