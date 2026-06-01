@@ -4,8 +4,8 @@ Nome        : Otávio Fernandes Caberlin - 195834
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1441
 Data        : 26/05/2026
-Objetivo    : .
-Aprendizado : .
+Objetivo    : Encontrar o maior valor que aparece na Sequência de Granizo iniciada.
+Aprendizado : Uso de recursão em sequências, atualização de variáveis durante a recursividade.
 -------------------------------------------------------------------------- */
 
 #include <stdio.h>
