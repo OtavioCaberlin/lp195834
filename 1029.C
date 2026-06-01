@@ -4,8 +4,8 @@ Nome        : Otávio Fernandes Caberlin - 195834
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1029
 Data        : 26/05/2026
-Objetivo    : .
-Aprendizado : .
+Objetivo    : Calcular a sequência de Fibonacci e quantas chamadas recursivas foram realizadas.
+Aprendizado : Funcionamento da recursão, casos base e árvore de chamadas recursivas.
 -------------------------------------------------------------------------- */
 
 #include <stdio.h>
