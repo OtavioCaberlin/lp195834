@@ -4,7 +4,7 @@ Nome        : Otávio Fernandes Caberlin - 195834
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1534
 Data        : 12/05/2026
-Objetivo    : Escrever uma matriz.
+Objetivo    : Escrever uma matriz, sem usar o perador [].
 Aprendizado : Como fazer um loop para matriz e determinar suas diagonais.
 -------------------------------------------------------------------------- */
 
