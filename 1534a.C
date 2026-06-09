@@ -5,7 +5,7 @@ Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1534
 Data        : 12/05/2026
 Objetivo    : Escrever uma matriz.
-Aprendizado : Como fazer um loop para matriz e determinar suas diagonais, usando [].
+Aprendizado : Como fazer um loop para matriz e determinar suas diagonais.
 -------------------------------------------------------------------------- */
 
 #include <stdio.h>
