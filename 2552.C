@@ -5,7 +5,7 @@ Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/2552
 Data        : 11/06/2026
 Objetivo    : Fazer o "jogo do pão de queijo", similar ao campo minado.
-Aprendizado : Contagem ao longo de uma matriz de fatores adjacecntes.
+Aprendizado : Contagem ao longo de uma matriz de fatores adjacentes.
 -------------------------------------------------------------------------- */
 
 #include <stdio.h>
