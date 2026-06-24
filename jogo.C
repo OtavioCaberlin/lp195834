@@ -210,21 +210,18 @@ int main()
         int l = linha - 1;
         int c = coluna - 1;
 
-        // Casa ja preenchida
         if (sudoku[l][c] != 0)
         {
             printf("\nEssa casa ja esta preenchida, tente novamente.\n\n");
             continue;
         }
 
-        // Jogada invalida pelas regras do sudoku
         if (!jogadaValida(l, c, numero))
         {
             printf("\nVoce errou, tente novamente.\n\n");
             continue;
         }
 
-        // Jogada correta
         sudoku[l][c] = numero;
         printf("\nVoce acertou, parabens!\n\n");
 
