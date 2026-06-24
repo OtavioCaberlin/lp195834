@@ -11,11 +11,7 @@ Aprendizado : Como fazer a entrada de aquivo, verificação de sudoku, entradas 
 #include <stdio.h>
 
 int sudoku[9][9];
-int travado[9][9]; // 1 = numero original (nao pode alterar), 0 = casa livre
-
-// -------------------------------------------------------
-// Funcoes de verificacao (mesma logica do beecrowd)
-// -------------------------------------------------------
+int travado[9][9]; 
 
 int verificaLinha(int linha)
 {
@@ -77,7 +73,6 @@ int jogoCompleto()
     return 1;
 }
 
-// Verifica se o numero e valido na linha, coluna e bloco sem contar a propria casa
 int jogadaValida(int linha, int coluna, int num)
 {
     for (int j = 0; j < 9; j++)
@@ -102,10 +97,6 @@ int jogadaValida(int linha, int coluna, int num)
     }
     return 1;
 }
-
-// -------------------------------------------------------
-// Exibicao do tabuleiro
-// -------------------------------------------------------
 
 void exibeTabuleiro()
 {
@@ -147,10 +138,6 @@ void exibeTabuleiro()
     printf("\n  Legenda: <N> = numero original  |  [N] = sua jogada  |  [ ] = vazio\n\n");
 }
 
-// -------------------------------------------------------
-// Leitura do arquivo
-// -------------------------------------------------------
-
 int carregarArquivo(const char *nomeArquivo)
 {
     FILE *arquivo = fopen(nomeArquivo, "r");
@@ -177,10 +164,6 @@ int carregarArquivo(const char *nomeArquivo)
     fclose(arquivo);
     return 1;
 }
-
-// -------------------------------------------------------
-// Main
-// -------------------------------------------------------
 
 int main()
 {
