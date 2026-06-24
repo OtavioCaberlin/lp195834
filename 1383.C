@@ -4,8 +4,8 @@ Nome        : Otávio Fernandes Caberlin - 195834
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1383
 Data        : 09/06/2026
-Objetivo    : .
-Aprendizado : .
+Objetivo    : Fazer a verificação de um sudoku.
+Aprendizado : Com verificar linha, coluna e a "matriz interna".
 -------------------------------------------------------------------------- */
 
 #include <stdio.h>
