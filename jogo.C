@@ -10,69 +10,12 @@ Aprendizado : Como fazer a entrada de aquivo, verificação de sudoku, entradas 
 
 #include <stdio.h>
 
-int main() {
-
-    // Declaração das variáveis 
-    int linha, coluna, soma;
-    int m[100][100];
-
-    // Loop até o fim das entradas
-    while (scanf("%d %d", &linha, &coluna) != EOF) {
-
-        // Processamento da matriz
-        for (int i = 0; i < linha; i++) {
-            
-            for (int j = 0; j < coluna; j++) {
-                
-                scanf("%d", &m[i][j]);
-            }
-        }
-
-        // Matriz com o números de pães de queijo
-        for (int i = 0; i < linha; i++) {
-            
-            for (int j = 0; j < coluna; j++) {
-
-                // Se o número for 1 (tem pão de queijo)
-                if (m[i][j] == 1) {
-                    
-                    printf("9");
-                } 
-
-                // Se o número for 0 (não tem pão de queijo)
-                else {
-
-                    // Zera a soma a cada linha
-                    soma = 0;
-
-                    // Se a coluna não for maior que o máx existente e se a direita for 1
-                    if (j + 1 < coluna && m[i][j + 1] == 1)
-                        soma++;
-                    // Se a coluna não for menor que o mín existente e se a esquerda for 1
-                    if (j - 1 >= 0 && m[i][j - 1] == 1)
-                        soma++;
-                    // Se a linha não for maior que o máx existente e se embaixo for 1
-                    if (i + 1 < linha && m[i + 1][j] == 1)
-                        soma++;
-                    // Se a linha não for menor que o mín existente e se em cima for 1
-                    if (i - 1 >= 0 && m[i - 1][j] == 1)
-                        soma++;
-                    // Processamento de saída
-                    printf("%d", soma);
-                }
-            }
-            
-            printf("\n");
-        }
-    }
-
-    return 0;
-}
-
-#include <stdio.h>
-
 int sudoku[9][9];
-int travado[9][9]; 
+int travado[9][9]; // 1 = numero original (nao pode alterar), 0 = casa livre
+
+// -------------------------------------------------------
+// Funcoes de verificacao (mesma logica do beecrowd)
+// -------------------------------------------------------
 
 int verificaLinha(int linha)
 {
@@ -134,6 +77,7 @@ int jogoCompleto()
     return 1;
 }
 
+// Verifica se o numero e valido na linha, coluna e bloco sem contar a propria casa
 int jogadaValida(int linha, int coluna, int num)
 {
     for (int j = 0; j < 9; j++)
@@ -158,6 +102,10 @@ int jogadaValida(int linha, int coluna, int num)
     }
     return 1;
 }
+
+// -------------------------------------------------------
+// Exibicao do tabuleiro
+// -------------------------------------------------------
 
 void exibeTabuleiro()
 {
@@ -199,6 +147,10 @@ void exibeTabuleiro()
     printf("\n  Legenda: <N> = numero original  |  [N] = sua jogada  |  [ ] = vazio\n\n");
 }
 
+// -------------------------------------------------------
+// Leitura do arquivo
+// -------------------------------------------------------
+
 int carregarArquivo(const char *nomeArquivo)
 {
     FILE *arquivo = fopen(nomeArquivo, "r");
@@ -225,6 +177,10 @@ int carregarArquivo(const char *nomeArquivo)
     fclose(arquivo);
     return 1;
 }
+
+// -------------------------------------------------------
+// Main
+// -------------------------------------------------------
 
 int main()
 {
@@ -271,18 +227,21 @@ int main()
         int l = linha - 1;
         int c = coluna - 1;
 
+        // Casa ja preenchida
         if (sudoku[l][c] != 0)
         {
             printf("\nEssa casa ja esta preenchida, tente novamente.\n\n");
             continue;
         }
 
+        // Jogada invalida pelas regras do sudoku
         if (!jogadaValida(l, c, numero))
         {
             printf("\nVoce errou, tente novamente.\n\n");
             continue;
         }
 
+        // Jogada correta
         sudoku[l][c] = numero;
         printf("\nVoce acertou, parabens!\n\n");
 
